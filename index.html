@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>Weather box v0.6</title>
+  
+  
+  <link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Hind+Vadodara:300,400,500,600,700'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  
+<div class="daybox">
+
+  <label>
+    <!--checkbox-->
+    <input id="switch_night" type="checkbox"/>
+    <div class="top">
+      <div class="top_background"> </div>
+      <div class="text_area">
+        <div class="temperature">26°C</div>
+        <div class="infos">
+          <!--.address 116台灣台北市文山區萬興里-->
+          <div class="address">
+            <div id="output3"></div>
+          </div>
+          <div class="time"></div>
+          <!--12:00:01 am-->
+          <div class="time_year"></div>
+          <!--.time 星期三 上午4:00-->
+        </div>
+      </div>
+      <!--.showBox-->
+      <!--晚上天氣-->
+      <div class="moon">
+        <div id="day_W_image02"><img src="http://icons.wxug.com/i/c/k/nt_partlycloudy.gif"/></div>
+      </div>
+      <!--早上天氣-->
+      <div class="cloud">
+        <div id="day_W_image01"><img src="http://icons.wxug.com/i/c/k/partlycloudy.gif"/></div>
+      </div>
+      <div class="rain"></div>
+      <div class="rain rain2"></div>
+      <div class="rain rain3"></div>
+      <div class="rain rain4"></div>
+      <div class="rain rain5"></div>
+      <div class="rain rain6"></div>
+      <div class="rain rain7"></div>
+      <div class="rain rain8"></div>
+    </div>
+    <!--本周天氣-->
+    <div class="bottom">
+
+      <div class="dayweather day">
+        <h3 class="day03">   DAY +1   </h3>
+        <div id="day_W_image03"><img src="http://icons.wxug.com/i/c/k/partlycloudy.gif"/></div>
+      </div>
+      <div class="dayweather day">
+        <h3 class="day05">   DAY +2</h3>
+        <div id="day_W_image05"><img src="http://icons.wxug.com/i/c/k/partlycloudy.gif"/></div>
+      </div>
+      <div class="dayweather day">
+        <h3 class="day07">   DAY +3</h3>
+        <div id="day_W_image07"><img src="http://icons.wxug.com/i/c/k/partlycloudy.gif"/></div>
+      </div>
+      <!--晚間天氣-->
+      
+      <div class="dayweather night">   
+        <h3 class="day04">DAY +1 Night</h3>
+        <div id="day_W_image04"><img src="http://icons.wxug.com/i/c/k/partlycloudy.gif"/></div>
+      </div>
+      <div class="dayweather night">  
+        <h3 class="day06">DAY +2 Night</h3>
+        <div id="day_W_image06"><img src="http://icons.wxug.com/i/c/k/partlycloudy.gif"/></div>
+      </div>
+      <div class="dayweather night">  
+        <h3 class="day08">DAY +3 Night</h3>
+        <div id="day_W_image08"><img src="http://icons.wxug.com/i/c/k/partlycloudy.gif"/></div>
+      </div>
+    </div>
+    <div class="powerBY">
+      <h2>Power by:</h2>
+      <div class="powerByImg">
+        <div class="inLineImg0"></div>
+        <div class="inLineImg1">       </div>
+      </div>
+    </div>
+  </label>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.20.0/moment-with-locales.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
+<script src='http://maps.googleapis.com/maps/api/js?sensor=false'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>

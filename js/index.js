@@ -1,6 +1,6 @@
 //
 function getWeatherURL(latitude,longitude) {
-  return "http://api.wunderground.com/api/ee65416f3267a1ca/forecast/geolookup/conditions/q/" + latitude + "," + longitude + ".json";
+  return "https://api.wunderground.com/api/ee65416f3267a1ca/forecast/geolookup/conditions/q/" + latitude + "," + longitude + ".json";
 }
 
 function getAddress2(latitude,longitude) {
